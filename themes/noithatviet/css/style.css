@@ -1,0 +1,397 @@
+body {
+padding:0px;
+margin:0 auto;
+text-align: center;
+background:#2d2d2d;
+max-width:1346;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+padding:0px;
+width: 1000px;
+background:#FFFFFF;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+margin: 0 auto;
+text-align: left;
+padding-bottom: 8px;
+} 
+#wrapper1 {
+padding:0px;
+margin:0 auto;
+width: 1000px;
+text-align: left;
+} 
+.banner1{
+	background:url(../images/header_about.jpg) no-repeat top center;	
+	max-width:1500px;
+	height:154px;
+	margin:0 auto;
+}
+.menu{
+	background:url(../images/nenmn.png) repeat-x top left;
+	height:42px;
+	max-width:1000px;
+	margin:0 auto;
+}
+.cl{
+	clear:both;
+}
+.scrollList .btnUp {
+	position: relative;
+	float: left;
+	cursor: pointer;
+	width: 16px;
+	height: 76px;
+}
+
+.scrollList .btnDown {
+	position: relative;
+	float: left;
+	cursor: pointer;
+	width: 16px;
+	height: 76px;
+}
+.scrollList .mask {
+	position: relative;
+	float: left;
+	width: 928px;
+	height: 76px;
+	margin: 0;
+	overflow: hidden;
+	text-align:left;
+}
+.scrollList .mask .list {
+	position: absolute;
+	float: left;
+	height: 76px;
+	}
+.scrollList .mask .list .item {
+	position: relative;
+	float: left;
+	height: 76px;
+	padding:0px 3px;
+	color:#FFFFFF;
+}
+.scrollList .mask .list .item a, .scrollList .mask .list .item a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.scrollList .mask .list .item img {
+	position: relative;
+	width: 120px;
+	height: 76px;
+	padding:3px;
+	border:none;
+}
+.slide{
+	float:left;
+	width:737px;
+	padding-left:10px;
+	}
+.tinright{
+	float:left;
+	padding-left:15px;
+	width:224px;
+}
+
+.center{
+	padding:0 15px 0 10px;	float:left;width:976px;
+}
+.bottom{
+	padding:0 15px 0 10px;	
+}
+.doitac{
+	background:url(../images/nendoitac.png) no-repeat top left;
+	height:38px;
+	font-size:14px;
+	text-transform:uppercase;
+	padding:10px 0 0 60px;
+	font-weight:700;
+	color:#FFF;
+}
+.tieudebottom{
+	background:url(../images/nenduoi.png) no-repeat top left;
+	text-transform:uppercase;
+	padding:12px 0 0 40px;
+	font-weight:bold; width:315px;
+	color:white;
+	height:38px;
+	}
+.tinbottom{
+	padding-left:2px;
+	margin-top:-10px;
+	min-height:300px;
+	width:313px;
+	-moz-box-shadow: 0px 3px 10px 4px #dddddd;
+	}
+.sldt{
+	padding:10px 15px 10px 10px;
+	}
+.sldoitac{
+	height:125px;
+	width:975px;
+	-moz-box-shadow: 4px 1px 10px 6px #d2d2d2;
+	}
+.tincenter{
+	background:url(../images/nenbl2.png) no-repeat top left;
+	height:38px;
+	color:#fff;
+	font-weight:bold; width:700px;
+	text-transform:uppercase;
+	padding:12px 0 0 40px;
+}
+.nentr1{
+	background:url(../images/nenbl2.png) no-repeat top left;
+	height:38px;
+	color:#fff;
+	font-weight:bold; width:100%;
+	text-transform:uppercase;
+}
+.nentr{
+	background:url(../images/nenbl.png) no-repeat top left;
+	height:38px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	}
+a.amn{
+	color:#fff; 
+	text-decoration:none;
+	}
+a.amn:hover{
+	color:#990000;
+	text-decoration:none;
+	}
+a.tieudetin{
+	color:#000000; 
+	text-decoration:none;
+	}
+a.tieudetin:hover{
+	color:#990000;
+	text-decoration:none;
+	}
+a.tieudetin1{
+	color:#B1650D; 
+	text-decoration:none;
+	font-size:15px;
+	font-weight:600;
+	}
+a.tieudetin1:hover{
+	color:red;
+	text-decoration:none;
+	}
+a.title{
+	color:red; 
+	font-size:13px;
+	text-decoration:none;
+	}
+a.title:hover{
+	color:#cb7612;
+	text-decoration:none;
+	}
+a.titleduoi{
+	color:#ec0002; 
+	font-weight:800;
+	text-decoration:none;
+	}
+a.titleduoi:hover{
+	color:#C0823B;
+	text-decoration:none;
+	}
+a.ctk{
+	color:red;
+	text-decoration:none;
+	font-weight:bold;
+}
+a.ctk:hover{
+	color:black;
+	text-decoration:none;
+}
+a.footer{
+	color:#fff;
+	text-decoration:none;
+	font-size:12px;
+}
+a.footer:hover{
+	color:#ae6107;
+	text-decoration:none;
+}
+.home a{
+	text-decoration:none;
+}
+.home a:hover{
+	background:url(../images/home-hover.png) no-repeat top left;
+	text-decoration:none;
+}
+.boxda{
+	border:1px solid #CCC;
+	width:230px;
+	min-height:270px;
+	}
+.nameboxda{
+	color:red;
+	padding:10px;
+	text-transform:uppercase;
+	
+	}
+	.cansp{
+padding:3px;
+width:300px;
+}
+.titlecart{
+width:30px;
+}
+.inputcart{
+width:100%;
+}
+input.ac_input{
+height:18px;
+padding-right:0px;
+margin-right:30px;
+width:120px;
+}
+
+
+table.ad 
+
+{
+font-size:12px;
+
+border-collapse:collapse;
+
+}
+
+tr.adh td
+
+{
+
+border: 1px solid #CCCCCC;
+padding:5px;
+
+}
+
+
+
+td.rtb{
+
+text-align:right;
+
+font-weight:bold;
+
+color:#333333;
+
+}
+
+td.rtbc{
+
+text-align:right;
+
+color:#333333;
+
+}
+
+/* nav */
+#nav 
+{
+ font-size:12px;
+ font-weight:bold;  
+}
+#dropmenu, #dropmenu ul 
+{
+ width:100%; 
+ margin:0; 
+ padding:0; 
+ list-style-type:none; 
+ list-style-position:outside; 
+ position:relative; 
+ line-height:1.5em; 
+ z-index:300; 
+ background:#fff; 
+ font-weight:bold;
+}
+
+#dropmenu a 
+{
+ float:left;
+ width:auto;
+ height:24px;  
+ color:#FFFFFF; 
+ padding:6px 7px 0px; 
+ font:15px Tahoma,Geneva,sans-serif;
+}
+
+#dropmenu a:hover 
+{
+ background:#888; 
+ color:#fff;
+ background:url("../images/bgmn1.png") repeat-x scroll left top transparent;
+ height:30px;
+}
+
+#dropmenu li 
+{
+ float:left;
+ position:relative;
+ text-align:left;
+}
+
+#dropmenu ul 
+{
+ position:absolute; 
+ display:none; 
+ width:12em; 
+ top:1.9em; 
+ left:-1px;	
+ margin-top:13px;
+}
+
+#dropmenu ul a 
+{
+ float:left;  
+ border-left:1px solid #c8c8c8;
+ border-bottom:1px solid #c8c8c8;
+ background:url("../images/bgmn2.png") repeat-x scroll left top transparent;
+ padding:5px;
+}
+
+#dropmenu li ul 
+{
+}
+
+#dropmenu li ul a 
+{
+ width:15em; 
+ height:auto; 
+ border-bottom:1px solid #c8c8c8;
+}
+
+#dropmenu ul ul 
+{
+ top:auto;
+ text-align:left;
+}
+
+#dropmenu li ul ul 
+{
+ left:12em; 
+ margin:0px 0 0 10px;
+}
+
+#dropmenu li:hover ul ul, #dropmenu li:hover ul ul ul, #dropmenu li:hover ul ul ul ul 
+{
+ display:none;
+}
+
+#dropmenu li:hover ul, #dropmenu li li:hover ul, #dropmenu li li li:hover ul, #dropmenu li li li li:hover ul 
+{
+ display:block;
+}
+#dropmenu #active
+{
+ float:left;
+ width:auto;
+ color:#FFFFFF; 
+ }
